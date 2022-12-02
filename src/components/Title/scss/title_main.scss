@@ -1,0 +1,63 @@
+@import "../../../mainStyle/shortcuts.scss";
+
+.title_block{
+/*     @include scaffolding-col; */
+    width: 470px;
+    height: 200px;
+    align-self:flex-end;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+     h1{
+      
+        margin: 0;
+        @include Font;
+        @include TitleFontProp;
+        text-align: end;
+    }
+    .title_description{
+  /*       @include scaffolding-col; */
+        @include Font;
+        word-wrap: break-word;
+        display: flex;
+        align-items: flex-start;
+        justify-content:flex-end;
+        margin: 0;
+        height:auto;
+        h3{
+            margin: -10px 5px 0 0 ;
+            font-size: 38px;
+            font-weight: 400;
+            span{
+                margin: 0 25px 0 0 ;
+                color: white;
+            }
+        }
+    }
+    .icon_box{
+        width: 200px;
+        height: 27px;
+        display: flex;
+        justify-content: flex-end;
+        align-self:flex-end;
+        flex-direction: row;
+        padding: 0 8px 0 0;
+        div{
+            margin: 8px 0 0 5px;
+            width: 23.14px;
+            height: 27px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .HtmlIcon{
+            width: 23.14px;
+        }
+        .JsIcon{
+            width: 28.69px;
+        }
+        .reactIcon{
+            width: 30.35px;
+        }
+    }
+}
