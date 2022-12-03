@@ -1,5 +1,7 @@
 import React from 'react'
 import "./scss/title_main.scss"
+import "./scss/title_view_main.scss"
+
 import { Html5, JS, ReactIcon } from '../icons/Icons'
 
 const Title  = () => {
