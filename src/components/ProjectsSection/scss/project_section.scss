@@ -1,0 +1,70 @@
+@import "../../../mainStyle/shortcuts.scss";
+
+.project_section{
+    width: 100%;
+   
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0 0 0 ;
+ 
+    .section_title_box{
+        
+        width: 100%;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        h4{
+            margin: -10px 0 0 0 ;
+            justify-self: flex-start;
+            @include Font;
+            font-size: 33px;
+            font-weight: 300;
+        }
+        
+    }
+    .project_card_box{
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+          /*   @include scaffolding-col; */
+            .project_card{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin: 10px 0 0 0;
+                width: 100%;
+                height: 50px;
+                border: thin solid black;
+                .project_name{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 100%;
+                    width: 240px;
+                    
+                    h5{
+                        @include Font;
+                        font-size: 29px;
+                        font-weight: 100;
+                        margin: -5px 0 0 0 ;
+                    }
+
+                }
+                .expand_btn_box{
+                    @include scaffolding-col;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 100%;
+                    width: 50px;
+                }
+            }
+
+    }
+    
+}

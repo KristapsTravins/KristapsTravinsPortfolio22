@@ -12,7 +12,7 @@ html{
     .app{
        
         width:100vw;
-        height: 100vh;
+     
         display: flex;
         justify-content: center;
         align-items: center;
@@ -22,8 +22,8 @@ html{
             width: 100%;
             max-width:638px;
             height: 1000px;
-            @include scaffolding-col;
-            padding: 300px 0 0 0 ;
+           
+            padding: 80px 0 0 0 ;
 
         }
     }
