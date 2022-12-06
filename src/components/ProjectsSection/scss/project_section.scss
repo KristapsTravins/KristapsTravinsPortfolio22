@@ -33,36 +33,61 @@
             align-items: center;
           /*   @include scaffolding-col; */
             .project_card{
-                display: flex;
+                display: inline-block;
+                overflow: hidden;
                 justify-content: space-between;
                 align-items: center;
+                flex-direction: column;
                 margin: 10px 0 0 0;
                 width: 99%;
-                height: 50px;
                 border: thin solid black;
-                .project_name{
+                .inner_project_box{
                     display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    height: 100%;
-                    width: 240px;
-                    
-                    h5{
-                        @include Font;
-                        font-size: 29px;
-                        font-weight: 100;
-                        margin: -5px 0 0 0 ;
+                    width: 100%;
+                    justify-content: space-between;
+                    align-self: start;
+                    height: 50px;
+                    .project_name{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        height: 100%;
+                        width: 240px;
+                        
+                        h5{
+                            @include Font;
+                            font-size: 29px;
+                            font-weight: 100;
+                            margin: -5px 0 0 0 ;
+                        }
+    
                     }
+                    .expand_btn_box{
+                      
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        height: 100%;
+                        width: 50px;
+                    }
+                }
+                .inner_project_box_description{
+                    width: 80%;
+                    text-align: left;
+                    height: 80px;
+                    border: 1px solid black;
+                    p{
+                        @include Font;
+                        padding: 0 0 0 33px;
+                    }
+                }
+                .inner_project_box_description_links{
+                    margin: 5px 0 0 0;
+                    width: 70%;
+                    height: 27px;
+                    border: 1px solid black;
+                }
 
-                }
-                .expand_btn_box{
-                  
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    height: 100%;
-                    width: 50px;
-                }
             }
 
     }
