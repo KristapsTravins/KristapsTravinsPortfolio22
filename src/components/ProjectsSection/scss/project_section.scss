@@ -37,7 +37,7 @@
                 justify-content: space-between;
                 align-items: center;
                 margin: 10px 0 0 0;
-                width: 100%;
+                width: 99%;
                 height: 50px;
                 border: thin solid black;
                 .project_name{
@@ -56,7 +56,7 @@
 
                 }
                 .expand_btn_box{
-                    @include scaffolding-col;
+                  
                     display: flex;
                     justify-content: center;
                     align-items: center;

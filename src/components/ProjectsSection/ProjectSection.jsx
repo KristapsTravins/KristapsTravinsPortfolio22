@@ -1,4 +1,5 @@
 import React from 'react'
+import ExpandBtn from '../exp_button/ExpandBtn'
 
 import "./scss/project_section.scss"
 
@@ -14,7 +15,7 @@ const ProjectSection = () => {
                                 <h5>studio-sn.eu</h5> 
                         </div>
                         <div className='expand_btn_box'>
-                                <button></button>
+                               <ExpandBtn />
                         </div>
                 </div>
         </div>

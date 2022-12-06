@@ -59,4 +59,10 @@ export const JS = () => {
     )
   }
   
-  
+  export const Arrow = () =>{
+    return(
+      <svg width="15" height="8" viewBox="0 0 15 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M14 7L7.5 1L1 7" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    )
+  }

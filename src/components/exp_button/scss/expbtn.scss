@@ -1,0 +1,17 @@
+@import "../../../mainStyle/shortcuts.scss";
+
+.exp_btn{
+    all:unset;
+    width: 80%;
+    height: 80%;
+    border: thin solid black ;
+    border-radius:30px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    svg{
+        width: 21px;
+        height: 12px;
+    }
+}
