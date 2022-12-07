@@ -1,0 +1,35 @@
+
+@media (max-width: 657px) {
+   .project_card{
+    width: 99%;
+    height: 52px;
+ 
+   }
+}
+
+@media(max-width:460px){
+    .project_card{
+        width: 97%;
+        
+        .project_title_block{
+       
+            .project_title{
+         
+                h5{
+                   
+                }
+                .prieview_label{
+                  
+                    p{
+                       
+                    }
+        
+                }
+            }
+            .project_exp_btn{
+                
+            }
+            
+        }
+       }
+}

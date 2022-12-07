@@ -1,4 +1,6 @@
-import ProjectSection from "./components/ProjectsSection/ProjectSection";
+import Card from "./components/ProjectCard/Card";
+import Section from "./components/ProjectsSection/Section";
+
 import Title from "./components/Title/Title";
 
 const App = () =>{
@@ -7,7 +9,13 @@ const App = () =>{
       <div className="app">
         <div className="content_wrapper">
             <Title />
-            <ProjectSection />
+            <Section name={"projects"} >
+              <Card />
+              <Card />
+            </Section> 
+              
+      
+            <Section name={"contacts"} />
         </div>
       </div>
     )
@@ -15,3 +23,8 @@ const App = () =>{
 } 
 
 export default App;
+
+
+
+   {/* <ProjectCard name={"studio-sn.eu"} />
+        <ProjectCard name={"antaview.com"} /> */}
